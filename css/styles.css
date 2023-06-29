@@ -147,7 +147,8 @@ img {
   font-size: var(--text-font-size);
   line-height: var(--text-line-height);
   letter-spacing: 0.02em;
-  color: var(--title-color);
+  /* color: var(--title-color); */
+  color: var(--active-link-color);
   padding-bottom: 27px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -425,10 +426,11 @@ img {
   flex-shrink: 0;
   align-self: flex-end;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sl-item {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .sl-link {
@@ -444,7 +446,8 @@ img {
 
 .sl-link:hover,
 .sl.link:focus {
-  background-color: var(--active-link-color);
+  /* background-color: var(--active-link-color); */
+  background-color: #404bbf;
 }
 
 /**
@@ -470,9 +473,10 @@ img {
   justify-content: center;
   gap: 24px;
   padding-bottom: 120px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-item {
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 .clients-link {
   display: flex;
@@ -490,6 +494,7 @@ img {
 
 .clients-link:hover,
 .clients-link:focus {
+  color: var(--active-link-color);
   border-color: var(--active-link-color);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08),
