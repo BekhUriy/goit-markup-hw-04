@@ -426,11 +426,11 @@ img {
   flex-shrink: 0;
   align-self: flex-end;
   justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .sl-item {
-  /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sl-link {
@@ -445,9 +445,9 @@ img {
 }
 
 .sl-link:hover,
-.sl.link:focus {
-  /* background-color: var(--active-link-color); */
-  background-color: #404bbf;
+.sl-link:focus {
+  background-color: var(--active-link-color);
+  /* background-color: #404bbf; */
 }
 
 /**
@@ -473,7 +473,7 @@ img {
   justify-content: center;
   gap: 24px;
   padding-bottom: 120px;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 .clients-item {
   /* transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
@@ -487,6 +487,7 @@ img {
   border-radius: 4px;
   border: 1px solid #8e8f99;
   color: var(--icon-color);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-icon {
   fill: currentColor;
@@ -658,6 +659,7 @@ img {
 }
 
 .footer-logo {
+  display: flex;
   display: inline-block;
   font-family: var(--logo-font);
   font-weight: 800;
@@ -695,12 +697,13 @@ img {
   align-items: flex-start;
   gap: 16px;
   align-self: flex-end;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .sm-item {
   display: flex;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .sm-link {
@@ -718,7 +721,7 @@ img {
 
 .sm-link:hover,
 .sm-link:focus {
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
   background: #31d0aa;
 }
 
