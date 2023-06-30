@@ -426,7 +426,6 @@ img {
   flex-shrink: 0;
   align-self: flex-end;
   justify-content: center;
-  /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .sl-item {
@@ -447,7 +446,6 @@ img {
 .sl-link:hover,
 .sl-link:focus {
   background-color: var(--active-link-color);
-  /* background-color: #404bbf; */
 }
 
 /**
@@ -465,17 +463,17 @@ img {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  padding-top: 120px;
   margin-bottom: 72px;
 }
 .cliets-list {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-bottom: 120px;
 }
+
 .clients-item {
 }
+
 .clients-link {
   display: flex;
   justify-content: center;
@@ -495,7 +493,6 @@ img {
 .clients-link:focus {
   color: var(--active-link-color);
   border-color: var(--active-link-color);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08),
     0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
