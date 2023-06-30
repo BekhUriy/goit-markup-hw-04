@@ -473,9 +473,8 @@ img {
   justify-content: center;
   gap: 24px;
   padding-bottom: 120px;
-
+}
 .clients-item {
-  
 }
 .clients-link {
   display: flex;
@@ -681,6 +680,7 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+
 .social_media {
 }
 
